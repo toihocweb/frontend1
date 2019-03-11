@@ -1,75 +1,91 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Giáo Trình</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>Giáo Trình</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h1>LẬP TRÌNH WEB</h1>
-					<p style="text-align: right">Trainer: Tui</p>
-				</section>
-				<section>
-					<h2>Kiến thức đạt được</h2>
-					<ul>
-						<li>Html, Css, Scss, Jquery</li>
-						<li>Javascript cơ bản</li>
-						<li>Gulp</li>
-						<li>Github</li>
-					</ul>
-				</section>
-				<section>
-						<h2>Bạn sẽ học</h2>
-						<ul>
-							<li>Tạo giao diện bất cứ website nào bạn muốn</li>
-							<li>Thiết kế Website tương thích với tất cả thiết bị với Grid, Flex </li>
-							<li>Cắt Web từ file Photoshop</li>
-							<li>Animation với CSS</li>
-							<li>Kiến thức cơ bản về CSS Framwork như Bootstrap, Semantic...</li>
-							<li>Hổ trợ làm project cho đến khi thực tập hoặc có việc làm..</li>
-							<li>Bonus: Full tài khoản VIP tại shop: <a target='_blank'  href="https://nickgiare.pro/">https://nickgiare.pro/</a>  </li>
-						</ul>
-				</section>
-			</div>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>LẬP TRÌNH WEB</h1>
+			</section>
+			<section>
+				<h2>Kiến thức đạt được</h2>
+				<ul>
+					<li>Html, Css, Scss, Jquery</li>
+					<li>Javascript cơ bản</li>
+					<li>Gulp</li>
+					<li>Github</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Bạn sẽ học</h2>
+				<ul>
+					<li>Tạo giao diện bất cứ website nào bạn muốn</li>
+					<li>Thiết kế Website tương thích với tất cả thiết bị với Grid, Flex </li>
+					<li>Cắt Web từ file Photoshop</li>
+					<li>Animation với CSS</li>
+					<li>Kiến thức cơ bản về CSS Framwork như Bootstrap, Semantic...</li>
+					<li>Hổ trợ làm project cho đến khi thực tập hoặc có việc làm..</li>
+					<li>Bonus: Full tài khoản VIP tại shop:
+						<a target='_blank' href="https://nickgiare.pro/">https://nickgiare.pro/</a>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Chuẩn bị</h2>
+				<ul>
+					<li>Tải Visual Studio Code: <a href=" https://code.visualstudio.com/"> https://code.visualstudio.com/</a></li>
+					<li>Tải Node js: <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></li>
+					<li>Đăng kí tài khoản Github: <a href="https://github.com/join?source=header-home">https://github.com/join?source=header-home</a></li>
+					<li>Tải Git bash: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> </li>
+				</ul>
+			</section>
+			<!-- <section>
+				<h2>target 1</h2>
+				<img src="https://i.imgur.com/ekwV4hF.png" alt="">
+			</section> -->
 		</div>
+	</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.configure({ showSlideNumber: 'speaker' });
-			Reveal.addEventListener( 'overviewshown', function( event ) { /* ... */ } );
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.configure({ showSlideNumber: 'speaker' });
+		Reveal.addEventListener('overviewshown', function (event) { /* ... */ });
 
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				],
-			});
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			],
+		});
 			// Shows the slide number using default formatting
 
 
@@ -83,6 +99,7 @@
 //     "all": show on all views (default)
 // "speaker": only show slide numbers on speaker notes view
 //   "print": only show slide numbers when printing to PDF
-		</script>
-	</body>
+	</script>
+</body>
+
 </html>
